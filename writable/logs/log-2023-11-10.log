@@ -1,0 +1,29 @@
+INFO - 2023-11-10 13:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 13:13:27 --> Class "Config\Userrules" not found
+in SYSTEMPATH\Validation\Validation.php on line 694.
+ 1 SYSTEMPATH\Validation\Validation.php(120): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Config\Services.php(818): CodeIgniter\Validation\Validation->__construct(Object(Config\Validation), Object(CodeIgniter\View\View))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::validation(Object(Config\Validation), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+ 5 SYSTEMPATH\Config\Services.php(813): CodeIgniter\Config\BaseService::getSharedInstance('validation', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::validation()
+ 7 SYSTEMPATH\Controller.php(175): CodeIgniter\Config\BaseService::__callStatic('validation', [])
+ 8 SYSTEMPATH\Controller.php(150): CodeIgniter\Controller->setValidator([...], [])
+ 9 APPPATH\Controllers\User.php(78): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->register()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\c4-login\\public\\index.php')
+INFO - 2023-11-10 13:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
