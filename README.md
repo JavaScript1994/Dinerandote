@@ -6,15 +6,15 @@ Este proyecto es un simple sistema de inicio de sesión desarrollado utilizando 
 
 - PHP >= 7.2
 - CodeIgniter >= 4.x
-- MySQL 
+- MySQL
 
 ## Instalación
 
 1. Clone el repositorio en su máquina local:
 
-    ```bash
-    git clone https://github.com/fmontenegro0510/c4-login.git
-    ```
+   ```bash
+   git clone https://github.com/fmontenegro0510/c4-login.git
+   ```
 
 2. Configure la base de datos en `application/config/database.php` con los detalles de su base de datos.
 
@@ -22,9 +22,9 @@ Este proyecto es un simple sistema de inicio de sesión desarrollado utilizando 
 
 4. Inicie el servidor de desarrollo de CodeIgniter:
 
-    ```bash
-    php -S localhost:8080 -t public
-    ```
+   ```bash
+   php -S localhost:8080 -t public
+   ```
 
 5. Abra su navegador y vaya a [http://localhost:8080](http://localhost:8080).
 
